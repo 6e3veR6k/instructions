@@ -1,0 +1,61 @@
+:host {
+  display: block;
+  background-color: #15161a;
+}
+
+
+.page-header {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: .875em 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  display: block;
+  font-size: 1em;
+  text-decoration: none;
+  color: #e49c47;
+  font-weight: 700;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #212329;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.main-menu {
+  flex-grow: 1;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu-list-item {
+  display: flex;
+  padding: 0 1rem;
+}
+
+.menu-list-item a {
+  display: block;
+  text-decoration: none;
+  color: #d6dae0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .675rem;
+}
+
+.menu-list-item a:focus,
+.menu-list-item a:hover {
+  color: #e49c47;
+}
